@@ -1,0 +1,29 @@
+{
+  "name": "onnx_chrome",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedAyesh/YtSkipper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedAyesh/YtSkipper/issues"
+  },
+  "homepage": "https://github.com/MohammedAyesh/YtSkipper#readme",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.34.9",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  },
+  "dependencies": {
+    "onnxruntime-web": "^1.20.1"
+  }
+}
