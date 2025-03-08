@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ONNX Extension Popup</title>
+  <style>
+    /* Some minimal styling */
+    body { margin: 10px; font-family: sans-serif; }
+    #previewCanvas { border: 1px solid #aaa; max-width: 100%; }
+    .progress-bar { width: 100%; height: 6px; background: #eee; margin: 5px 0; }
+    .progress { width: 0%; height: 100%; background: #0078d4; }
+  </style>
+</head>
+<body>
+  <h1>ONNX Demo</h1>
+  
+  <input type="file" id="imageUpload" accept="image/*" hidden>
+  <button id="uploadButton">Select Image</button>
+  
+  <div id="status">Status: idle</div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar"></div>
+  </div>
+  
+  <canvas id="previewCanvas"></canvas>
+
+  <!-- Our popup script -->
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

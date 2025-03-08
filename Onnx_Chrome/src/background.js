@@ -1,6 +1,5 @@
-import * as ort from 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.16.3/dist/ort.min.js';
-
 // background.js (Service Worker) -----------------------------
+import * as ort from 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.16.3/dist/ort.min.js';
 // ------------------------------------------------------------------
 // 1) Setup single-thread WASM environment (optional but recommended)
 // ------------------------------------------------------------------

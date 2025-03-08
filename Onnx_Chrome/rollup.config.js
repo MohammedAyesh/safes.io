@@ -24,6 +24,7 @@ export default {
       targets: [
         // Copy manifest.json into dist/
         { src: 'manifest.json', dest: 'dist/' },
+        { src: 'libs/*', dest: 'dist/lib/'}, 
         // Copy everything in public/ to dist/public/
         { src: 'public/*', dest: 'dist/public/' },
         // Copy popup.html to dist/ (if you keep it in src/)
